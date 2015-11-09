@@ -17,6 +17,6 @@ for i in array:
     if i in A:
         happiness += 1
     elif i in B:
-        happiness -=1
+        happiness -= 1
 
 print happiness
